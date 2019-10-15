@@ -1,7 +1,7 @@
 axelerant_test.custom_url_controller_json:
   path: '/axelerant_test/{siteapikey}/{nid}'
   defaults:
-    _controller: '\Drupal\axelerant_test\Controller\JsonResponse::generate'
+    _controller: '\Drupal\axelerant_test\Controller\JsonRespons::generate'
     _title: 'Custom Url Controller'
   requirements:
     _permission: 'access content'
